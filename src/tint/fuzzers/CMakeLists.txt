@@ -100,3 +100,8 @@ endif()
 if (${TINT_BUILD_REGEX_FUZZER})
   add_subdirectory(tint_regex_fuzzer)
 endif()
+
+if (${TINT_BUILD_STRUCTURE_FUZZER})
+  add_subdirectory(tint_structure_fuzzer)
+endif()
+
