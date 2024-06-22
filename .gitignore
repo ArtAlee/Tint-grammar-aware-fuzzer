@@ -141,3 +141,7 @@ lcov.info
 all_findings.json
 
 tint.dot
+
+### Static libs
+*.a
+
