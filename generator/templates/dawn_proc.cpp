@@ -52,7 +52,7 @@ constexpr {{Prefix}}ProcTable MakeNullProcTable() {
 }
 
 static {{Prefix}}ProcTable kNullProcs = MakeNullProcTable();
-static {{Prefix}}ProcTable procs = kNullProcs;
+static {{Prefix}}ProcTable procs = MakeNullProcTable();
 
 void {{prefix}}ProcSetProcs(const {{Prefix}}ProcTable* procs_) {
     if (procs_) {
